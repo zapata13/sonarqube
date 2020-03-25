@@ -177,7 +177,7 @@ objects:
         containers:
         - env:
           - name: JDBC_URL
-            value: jdbc:postgresql://sonardb:5432/sonar?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true&amp;autoReconnectForPools=true
+            value: jdbc:postgresql://sonardb:5432/sonar?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&autoReconnectForPools=true
           - name: JDBC_USERNAME
             valueFrom:
               secretKeyRef:
